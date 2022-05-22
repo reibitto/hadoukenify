@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hadoukenify</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<img id="hadouken0" src="hadouken/0.gif" class="image-frame">
+<img id="hadouken1" src="hadouken/1.gif" class="image-frame">
+<img id="hadouken2" src="hadouken/2.gif" class="image-frame">
+<img id="hadouken3" src="hadouken/3.gif" class="image-frame">
+<img id="hadouken4" src="hadouken/4.gif" class="image-frame">
+<img id="hadouken5" src="hadouken/5.gif" class="image-frame">
+<img id="hadouken6" src="hadouken/6.gif" class="image-frame">
+<img id="hadouken7" src="hadouken/7.gif" class="image-frame">
+<img id="hadouken8" src="hadouken/8.gif" class="image-frame">
+<img id="hadouken9" src="hadouken/9.gif" class="image-frame">
+<img id="hadouken10" src="hadouken/10.gif" class="image-frame">
+<img id="hadouken11" src="hadouken/11.gif" class="image-frame">
+<img id="hadouken12" src="hadouken/12.gif" class="image-frame">
+<img id="hadouken13" src="hadouken/13.gif" class="image-frame">
+<img id="hadouken14" src="hadouken/14.gif" class="image-frame">
+<img id="hadouken15" src="hadouken/15.gif" class="image-frame">
+<img id="hadouken16" src="hadouken/16.gif" class="image-frame">
+<img id="hadouken17" src="hadouken/17.gif" class="image-frame">
+<img id="hadouken18" src="hadouken/18.gif" class="image-frame">
+<img id="hadouken19" src="hadouken/19.gif" class="image-frame">
+<img id="hadouken20" src="hadouken/20.gif" class="image-frame">
+<img id="hadouken21" src="hadouken/21.gif" class="image-frame">
+<img id="hadouken22" src="hadouken/22.gif" class="image-frame">
+<img id="hadouken23" src="hadouken/23.gif" class="image-frame">
+<img id="hadouken24" src="hadouken/24.gif" class="image-frame">
+<img id="hadouken25" src="hadouken/25.gif" class="image-frame">
+<img id="hadouken26" src="hadouken/26.gif" class="image-frame">
+<img id="hadouken27" src="hadouken/27.gif" class="image-frame">
+<img id="hadouken28" src="hadouken/28.gif" class="image-frame">
+<img id="hadouken29" src="hadouken/29.gif" class="image-frame">
+<img id="hadouken30" src="hadouken/30.gif" class="image-frame">
+<img id="hadouken31" src="hadouken/31.gif" class="image-frame">
+<img id="hadouken32" src="hadouken/32.gif" class="image-frame">
+<img id="hadouken33" src="hadouken/33.gif" class="image-frame">
+<img id="hadouken34" src="hadouken/34.gif" class="image-frame">
+<img id="hadouken35" src="hadouken/35.gif" class="image-frame">
+<img id="hadouken36" src="hadouken/36.gif" class="image-frame">
+<img id="hadouken37" src="hadouken/37.gif" class="image-frame">
+<img id="hadouken38" src="hadouken/38.gif" class="image-frame">
+<img id="hadouken39" src="hadouken/39.gif" class="image-frame">
+<img id="hadouken40" src="hadouken/40.gif" class="image-frame">
+<img id="hadouken41" src="hadouken/41.gif" class="image-frame">
+<img id="hadouken42" src="hadouken/42.gif" class="image-frame">
+
+
+
+<div class="container">
+    <img id="logo" src="hadoukenify.png" class="img-fluid" alt="Hadoukenify"/>
+
+    <textarea id="code-input">
+function1(args, function() {
+    function2(args, function() {
+        function3(args, function() {
+            function4(args, function() {
+                function5(args, function() {
+                    function6(args, function() {
+                        function7(args, function() {
+                            function8(args, function() {
+                                console.log('Done!');
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    });
+});
+        </textarea>
+
+    <button id="generate-button" type="button">Generate GIF</button>
+
+    <div id="loading-message" class="hidden">
+        <div>Generating GIF...</div>
+        <div>This may take a while depending on the speed of your device and browser.</div>
+    </div>
+
+    <img id="generated-result" class="hidden">
+
+    <a id="download-button" class="hidden" href="#" download="hadouken.gif">Download GIF</a>
+</div>
+
+<script type="text/javascript" src="hadoukenify-opt-bundle.js"></script>
+</body>
+</html>
